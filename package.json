@@ -2,6 +2,10 @@
 	"name": "loggy",
 	"displayName": "Loggy",
 	"description": "",
+	"icon": "./icon-128.png",
+	"repository": {
+		"url": "https://github.com/DSP-Solves/Loggy"
+	},
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.52.0"
