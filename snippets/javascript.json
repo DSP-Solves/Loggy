@@ -1,0 +1,10 @@
+{
+	"Print debugging info of variable": {
+		"prefix": "loggy",
+		"body": [
+			"console.log({ name: \"$1\", type: typeof $1, value: $1 });",
+			"$2"
+		],
+		"description": "Log name, type and value of a variable to console"
+	}
+}
