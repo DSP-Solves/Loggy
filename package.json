@@ -1,23 +1,30 @@
 {
-	"name": "helloworld",
-	"displayName": "HelloWorld",
+	"name": "loggy",
+	"displayName": "Loggy",
 	"description": "",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.52.0"
 	},
 	"categories": [
-		"Other"
+		"Snippets"
 	],
 	"activationEvents": [
-		"onCommand:helloworld.helloWorld"
+		"onCommand:loggy.helloWorld",
+		"onLanguage:javascript"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "helloworld.helloWorld",
-				"title": "Hello World"
+				"command": "loggy.helloWorld",
+				"title": "Loggy"
+			}
+		],
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript.json"
 			}
 		]
 	},
